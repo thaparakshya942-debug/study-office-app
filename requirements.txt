@@ -1,0 +1,6 @@
+# No version pins needed: the model is stored as XGBoost JSON + plain numbers (see portable.py), not a pickle.
+# xgboost-cpu = XGBoost without the large GPU dependency.
+streamlit
+pandas
+numpy
+xgboost-cpu
